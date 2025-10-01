@@ -1,0 +1,52 @@
+# 🐅 Macan Archiver v2.2.0 (Multi-Format Edition)
+
+Macan Archiver is a premium file archiver application based on PySide6 (Qt for Python) with a modern interface (dark theme).
+It supports various popular archive formats with full features: drag & drop, context menus, integrity testing, and direct file management from the GUI.
+
+---
+
+## ✨ Key Features
+- Multi-Format Archive Support
+- `.mcn` (Macan's custom format)
+- `.7z`
+- `.zip`
+- `.tar`, `.gz`, `.bz2`, `.xz`
+- `.rar` (optional, requires the `rarfile` module)
+- Create Archive — create a new archive with the LZMA/LZMA2 compression method and Store-Best level.
+- **Open Archive** — Open an archive file and display its contents in an interactive table.
+- **Extract Archive** — Extract all or selected files with a single click.
+- **Test Archive (7z/MCN)** — Verify the integrity of the archive to ensure it's not corrupted.
+- **Delete Items (7z/MCN)** — Delete files within the archive with automatic repacking.
+- **Context Menu & Drag & Drop** — Modern UX, just drag files into the application.
+- **Dark Theme Premium** — Elegant enterprise software-style interface.
+
+---
+## 📸 Screenshot
+<img width="832" height="653" alt="Screenshot 2025-10-02 005404" src="https://github.com/user-attachments/assets/6697b2d9-2cd6-4c1e-b19a-d5f658fec284" />
+---
+
+## 🖼️ Appearance
+- Toolbar with modern SVG icons (Create, Open, Extract, Test, Copy, Delete, About).
+- Interactive table with columns:
+- Name
+- Size
+- Modification Date
+- Type (File / Folder)
+- Status bar displays the number of files, their size, and the selection.
+
+---
+
+## 📦 Dependencies
+- Python 3.9+
+- [PySide6](https://pypi.org/project/PySide6/)
+- [py7zr](https://pypi.org/project/py7zr/)
+- [rarfile](https://pypi.org/project/rarfile/) *(optional, for .rar support)*
+
+---
+
+## 🚀 How to Run
+1. Clone the repo or download the source.
+2. Install dependencies:
+```bash
+pip install PySide6 py7zr
+pip install rarfile # optional for RAR support
