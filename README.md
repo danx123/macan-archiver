@@ -1,6 +1,6 @@
-# 🐅 Macan Archiver v2.3.0
+# 🐅 Macan Archiver v3.0.0
 
-Macan Archiver is a premium file archiver application based on PySide6 (Qt for Python) with a modern interface (dark theme).
+Macan Archiver is a premium file archiver application based on PySide6 (Qt for Python) with a modern interface (dark & light theme).
 It supports various popular archive formats with full features: drag & drop, context menus, integrity testing, and direct file management from the GUI.
 
 ---
@@ -22,7 +22,19 @@ It supports various popular archive formats with full features: drag & drop, con
 
 ---
 ## 📸 Screenshot
-<img width="842" height="672" alt="image" src="https://github.com/user-attachments/assets/b79740ef-de94-4521-83b2-3f346a61cd96" />
+<img width="801" height="630" alt="Screenshot 2025-10-02 073515" src="https://github.com/user-attachments/assets/0b5dc28a-a566-4dad-9a29-ba7f44036fbc" />
+<img width="803" height="631" alt="Screenshot 2025-10-02 073531" src="https://github.com/user-attachments/assets/2787fbf0-0f0f-4bc5-b483-999efba00515" />
+<img width="802" height="629" alt="Screenshot 2025-10-02 073547" src="https://github.com/user-attachments/assets/29177001-e2ae-4eab-a769-9b1c23ccb69d" />
+
+---
+## 📝 Changelog:
+- Add Themes Light & Dark
+- Add Properties file archive with full info, graphic ratio
+- Redesign UI
+- Add Icon (file list)
+- Add Shell Menu Integration
+- Support CLI subproses for 3rdparty (create .mcn)
+- Add save state management
 
 ---
 
