@@ -19,6 +19,12 @@ It supports various popular archive formats with full features: drag & drop, con
 - **Delete Items (7z/MCN)** — Delete files within the archive with automatic repacking.
 - **Context Menu & Drag & Drop** — Modern UX, just drag files into the application.
 - **Dark Theme Premium** — Elegant enterprise software-style interface.
+---
+📝 Changelog:
+- Added MacanAdd (cli mode)
+- Added MacanExtract (cli mode)
+- Update Dependency
+- Update Library
 
 ---
 ## 📸 Screenshot
