@@ -1,4 +1,4 @@
-# 🐅 Macan Archiver v4.2.5
+# 🐅 Macan Archiver v4.3.0
 
 Macan Archiver is a premium file archiver application based on PySide6 (Qt for Python) with a modern interface (dark & light theme).
 It supports various popular archive formats with full features: drag & drop, context menus, integrity testing, and direct file management from the GUI.
@@ -13,6 +13,7 @@ It supports various popular archive formats with full features: drag & drop, con
 - `.tar`, `.gz`, `.bz2`, `.xz`
 - `.rar` (optional, requires the `rarfile` module)
 - Create Archive — create a new archive with the LZMA/LZMA2 compression method and Store-Best level.
+- Create SFX.
 - **Open Archive** — Open an archive file and display its contents in an interactive table.
 - **Extract Archive** — Extract all or selected files with a single click.
 - **Test Archive (7z/MCN)** — Verify the integrity of the archive to ensure it's not corrupted.
@@ -21,16 +22,15 @@ It supports various popular archive formats with full features: drag & drop, con
 - **Dark Theme Premium** — Elegant enterprise software-style interface.
 ---
 📝 Changelog:
-- Added MacanAdd (cli mode)
-- Added MacanExtract (cli mode)
-- Update Dependency
-- Update Library
+- Improve stability & Performance
+- Change custom icon to default OS
 
 ---
 ## 📸 Screenshot
-<img width="801" height="630" alt="Screenshot 2025-10-02 073515" src="https://github.com/user-attachments/assets/0b5dc28a-a566-4dad-9a29-ba7f44036fbc" />
-<img width="803" height="631" alt="Screenshot 2025-10-02 073531" src="https://github.com/user-attachments/assets/2787fbf0-0f0f-4bc5-b483-999efba00515" />
-<img width="802" height="629" alt="Screenshot 2025-10-02 073547" src="https://github.com/user-attachments/assets/29177001-e2ae-4eab-a769-9b1c23ccb69d" />
+<img width="798" height="637" alt="Screenshot 2025-10-25 170854" src="https://github.com/user-attachments/assets/b648ba3a-c357-480a-adb4-2fb81718a920" />
+<img width="798" height="635" alt="Screenshot 2025-10-25 170909" src="https://github.com/user-attachments/assets/e1e93748-5dc5-492c-93b3-3383d0e46330" />
+
+
 
 ---
 
