@@ -1,4 +1,4 @@
-# 🐅 Macan Archiver v4.7.0
+# 🐅 Macan Archiver v5.0.0
 
 Macan Archiver is a premium file archiver application based on PySide6 (Qt for Python) with a modern interface (dark & light theme).
 It supports various popular archive formats with full features: drag & drop, context menus, integrity testing, and direct file management from the GUI.
@@ -22,8 +22,7 @@ It supports various popular archive formats with full features: drag & drop, con
 - **Dark Theme Premium** — Elegant enterprise software-style interface.
 ---
 📝 Changelog:
-🐞 Fixed * Addressed a critical bug in the "Copy Selected" (context menu) functionality where attempting to copy multiple items from an archive would fail unpredictably. * The bug could cause either **only one item** to be copied (despite selecting multiple) or, in some cases, the **entire archive's contents** to be extracted and copied, ignoring the user's selection. * Reworked the `_copy_selected_files_to_clipboard` method to be significantly more robust. Instead of passing filenames as command-line arguments (which caused the failure), the function now: 1. Writes the list of selected files to a temporary `listfile.txt`. 2. Calls `7z.exe` using the `@<listfile>` switch, which reliably handles any number of files. * The "Copy Selected" action now correctly extracts *only* the chosen files/folders to the temporary directory, ensuring that pasting into Windows Explorer works as expected.
-
+- Added new theme: Dark Blue, Neon Blue, Soft Pink
 ---
 ## 📸 Screenshot
 <img width="798" height="637" alt="Screenshot 2025-10-25 170854" src="https://github.com/user-attachments/assets/b648ba3a-c357-480a-adb4-2fb81718a920" />
