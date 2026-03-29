@@ -23,8 +23,8 @@ It supports various popular archive formats with full features: drag & drop, con
 
 ---
 ## 📸 Screenshot
-<img width="798" height="637" alt="Screenshot 2025-10-25 170854" src="https://github.com/user-attachments/assets/b648ba3a-c357-480a-adb4-2fb81718a920" />
-<img width="798" height="635" alt="Screenshot 2025-10-25 170909" src="https://github.com/user-attachments/assets/e1e93748-5dc5-492c-93b3-3383d0e46330" />
+<img width="903" height="713" alt="Screenshot 2026-03-29 074024" src="https://github.com/user-attachments/assets/2493450a-36bd-4995-871e-e69865391104" />
+
 
 
 
